@@ -1,0 +1,238 @@
+@font-face
+{
+	font-family: "Cheveuxdange";
+	src: url("../font/Cheveuxdange.ttf");
+	src: url("../font/Cheveuxdange.ttf") format("truetype");
+}
+
+html {
+	background-image: url('../img/pizarra-verde1.jpg');
+	background-repeat: repeat;
+	color: #dbecd7;
+	font-family: "Cheveuxdange", Helvetica, Verdana;
+	font-size: 16px;
+}
+input:hover{color: #E50914;}
+input, label, textarea, select {color: #E50914;}
+
+label {
+	color: #dbecd7;
+	font-size: 16px;
+}
+
+fieldset
+{
+	border: .1em solid #F60;
+	border-radius: .5em;
+	padding: 1em;
+}
+
+/*form
+{
+	display: none;
+}*/
+
+form div
+{
+	margin: .5em;
+}
+
+input[type="checkbox"], input[type="radio"], select
+{
+	background: #EEE;
+	cursor: pointer;
+}
+
+input[type="date"], input[type="email"], input[type="number"], input[type="text"], input[type="password"] 
+{
+	background: #EEE;
+	border-radius: .25em;
+	color: #F60;
+	font-size: 1em;
+	padding: .25em;
+}
+
+input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="text"]:focus, input[type="password"]:focus
+{
+	background: #C6ECF9;
+}
+
+input[type="email"]:disabled
+{
+	background: transparent;
+	color: #CCC;
+}
+
+input[type="file"]
+{
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width: 150px;
+}
+
+input[type="submit"]
+{
+	background: #E50914;
+	border-radius: 0 .25em;
+	color: #dbecd7;
+	font-family: "Cheveuxdange";
+	font-size: 1.5em;
+}
+
+input[type="submit"]:hover
+{
+	background: #10ab56;
+	border-radius: .25em 0;
+	color: #FFF;
+	cursor: pointer;
+}
+
+label
+{
+	cursor: pointer;
+	font-size: 1.2em;
+}
+
+nav, #principal
+{
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 1em;
+	margin: .25em;
+	text-align: left;
+	width: 80%;
+	vertical-align: top;
+}
+img {background-color: #e3f1151c;}
+
+table { 
+	width:100%;
+	color: #141414;
+}
+
+table td, table th { padding: .25rem; }
+
+table tr:first-child { 
+	background-color: #E50914;
+	color: #FFF;
+}
+
+table tr:nth-child(even) { background-color: #666; }
+
+table tr:nth-child(odd):not(:first-child) { background-color: #999; }
+
+textarea {
+    overflow-y: scroll;
+    overflow: scroll;
+    height: 100px;
+    background: #EEE;
+	border-radius: .25em;
+	color: #F60;
+	font-size: 1em;
+	padding: .25em;
+
+     /* resize: none; Remove this if you want the user to resize the textarea */
+}
+
+textarea:focus {
+    overflow-y: scroll;
+    overflow: scroll;
+    height: 100px;
+    background: #C6ECF9;
+	border-radius: .25em;
+	color: #F60;
+	font-size: 1em;
+	padding: .25em;
+	/* resize: none; Remove this if you want the user to resize the textarea */
+}
+#estudios, #experiencia{
+	overflow-y: scroll;
+    overflow: scroll;
+    height: 100px;
+}
+
+.adjuntar-archivo
+{
+	background: #EEE url(../img/boton-buscar.png) no-repeat 100% -3px;
+	border: thin solid #F60;
+	display: inline;
+	height: 290px;
+	text-align: right;
+}
+
+.adjuntar-archivo:hover
+{
+	background: #C6ECF9 url(../img/boton-buscar2.png) no-repeat 100% -3px;
+	cursor: pointer;
+}
+
+.cambio
+{
+	-ms-transition: all 2.5s ease-out;
+	-moz-transition: all 2.5s ease-out;
+	-o-transition: all 2.5s ease-out;
+	-webkit-transition: all 2.5s ease-out;
+	transition: all 2.5s ease-out;
+}
+
+.logo {
+	font-size: 3rem;
+	color: #E50914;
+}
+
+.imagen img {background-color: #e3f1151c}
+
+.menu a {
+	font-size: 1.9rem;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.menu a:hover { color: #E50914; }
+
+.menu ul {
+	background-color: #e3f1151c;
+}
+.button {
+	padding: .5rem 1rem;
+	background-color: #E50914;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.button:hover { opacity: .75; }
+
+.add { background-color: #0B0; }
+
+.edit { background-color: #0871B2; }
+
+.delete { background-color: #D23641; }
+
+.show { background-color: #141414; }
+
+.error { 
+	background-color: #E50914;
+	color: #FFF;
+}
+
+.img-404 {
+	max-width: 140px;
+	height: auto;
+}
+
+.poster { max-width: 200px; }
+
+.trailer iframe {
+	width: 560px;
+	height: 315px;
+}
+@media (min-width: 100px) {
+.menu ul {
+	background-color: none;
+	}
+}
